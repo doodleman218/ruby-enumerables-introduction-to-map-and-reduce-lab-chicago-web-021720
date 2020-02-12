@@ -55,9 +55,10 @@ end
 def reduce_to_all_true (array)
   index = 0 
   while index < array.length do
-    binding.pry
-    if array == true
-     
+    #binding.pry
+    if array[index] == false
+      return false
+      index += 1
    end
     
     end
