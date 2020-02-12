@@ -58,7 +58,7 @@ def reduce_to_all_true (array)
     #binding.pry
     return false if !array[index] 
       index += 1
-   end
+   
   end
   return true
 end
