@@ -62,6 +62,21 @@ end
 #   end
 #   return true
 # end
+
+
+def reduce_to_all_true (array)
+  index = 0 
+  while index < array.length do
+    #binding.pry
+    return false if !array[index] 
+      index += 1
+   
+  end
+  return true
+end
+
+
+
   
 # def reduce_to_any_true (array)
   
